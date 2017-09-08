@@ -7,7 +7,7 @@ http://www.springframework.org/schema/context/spring-context-4.1.xsd
 ">
 
 	<context:property-placeholder location="classpath:config.properties" />
-	<context:component-scan base-package="vip.service" />
+	<context:component-scan base-package="vip" />
 
 
 	<!--<import resource="classpath:spring-mybatis.xml"/>-->
